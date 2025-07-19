@@ -3,7 +3,7 @@ name: feri test Deploy to VPS
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-deploy:
