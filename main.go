@@ -21,13 +21,13 @@ func main() {
 
 	r.GET("/v1/greeting", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "Hello, Mentor!",
+			"message": "Hello, tess perubahan by feri!",
 		})
 	})
 
 	r.GET("/v1/about", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "Ini adalah hands-on deployment VPS pada bootcamp dibimbing",
+			"message": "Ini adalah hands-on deployment VPS pada bootcamp dibimbing by feriii",
 		})
 	})
 
