@@ -15,19 +15,19 @@ func main() {
 
 	r.GET("/v1/ping", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "Pong!",
+			"message": "UPDATE FERIII!",
 		})
 	})
 
 	r.GET("/v1/greeting", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "Hello, tess perubahan by feri!",
+			"message": "Hello, UPDATE FERIII!",
 		})
 	})
 
 	r.GET("/v1/about", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "Ini adalah hands-on deployment VPS pada bootcamp dibimbing by feriii",
+			"message": "Ini adalah hands-on deployment VPS UPDATE FERIII",
 		})
 	})
 
